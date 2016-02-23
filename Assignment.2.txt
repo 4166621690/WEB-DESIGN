@@ -1,0 +1,135 @@
+Coding of HTML Page:
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+<title>Assignment 2 of Web Designing</title>
+<link rel="stylesheet" type="text/css" href="cssfile.css"/>
+
+</head>
+
+<body>
+	<table>
+		<thead>
+			<td id="thtd" colspan="3">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About me</a></li>
+					<li><a href="#">Product</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Maps</a></li>
+					<li><a href="#">Contact me</a></li>
+				</ul>
+			
+			
+			
+			</td>
+		</thead>
+		
+		<tbody>
+		<tr>
+			<td id="trtd1">This area will contain the local Navigation</td>
+			<td id="trtd2">This area will contain the information about me</td>
+			<td id="trtd3">This area will contain statistics of customer satisfaction</td>
+		</tr>
+		</tbody>
+		
+		<tfoot>
+			<td id="tftd" colspan="3">This area will contain the copy right information and global links</td>
+		</tfoot>
+	
+	</table>
+</body>
+
+</html>
+
+*********************************************************************************************************************************************
+
+Coding of CSS Page:
+
+table
+{
+	height:670px;
+	width:1050px;
+	border-collapse:collapse;
+}
+
+ul
+{
+	text-align:center;
+	font-size:20px;
+}
+
+li
+{
+	list-style:none;
+	text-decoration:underline;
+	width:15%;
+	height:50px;
+	float:left;
+	font-size:x-large;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border-style:solid;
+	background-color:yellow;
+	border-color:blue;
+	margin:2px;
+	margin-bottom:30px;
+	padding-top:1px;
+}
+
+a
+{
+	color:blue;
+}
+
+#thtd
+{
+	background:aqua;
+}
+
+tr
+{
+	height:470;
+	width:350;
+}
+
+#trtd1
+{
+	color:aqua;
+	background:gray;
+	vertical-align:top;
+	font-size:x-large;
+	text-align:center;
+}
+
+#trtd2
+{
+	color:navy;
+	background:yellow;
+	vertical-align:top;
+	font-size:x-large;
+	text-align:center;
+}
+
+#trtd3
+{
+	color:yellow;
+	background:navy;
+	vertical-align:top;
+	font-size:x-large;
+	text-align:center;
+}
+
+#tftd
+{
+	color:orange;
+	background:aqua;
+	vertical-align:top;
+	text-align:center;
+	height:40px;
+}
+
